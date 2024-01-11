@@ -1,0 +1,71 @@
+   * {
+        padding: 0;
+        margin: 0;
+        font-family: cursive;
+        box-sizing: border-box;
+    }
+
+    *:focus {
+        outline-offset: 10px;
+        outline: dashed 4px red;
+    }
+
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+    body {
+        height: 100vh;
+        background-image: linear-gradient(45deg, #110187, #51009d);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: gold;
+        justify-content: center;
+        width: 100%;
+        max-width: 1220px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    textarea {
+        min-width: 400px;
+        min-height: 300px;
+        max-height: 300px;
+        padding: 50px;
+        font-size: 25px;
+        margin-bottom: 40px;
+        border-radius: 2% 50% 5% 20% / 50% 5% 50% 5%;
+        max-width: 400px;
+    }
+
+    .textToVoice {
+        width: 600px;
+        height: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btns {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    #play {
+        border: none;
+        width: 100px;
+        color: white;
+        letter-spacing: 2px;
+        background-color: #f85757;
+        border-radius: 20px;
+        padding: 7px 20px;
+    }
+
+    
